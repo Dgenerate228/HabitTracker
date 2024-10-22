@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="18dp"
+    android:layout_marginTop="16dp"
+>
+
+    <ImageView
+        android:id="@+id/picture_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:src="@android:drawable/btn_star"
+        />
+
+    <TextView
+        android:id="@+id/habit_name"
+        tools:text = "Alcohol"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:padding="8dp"
+        />
+
+    <ImageView
+        android:id="@+id/edit_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320dp"
+        android:src="@android:drawable/ic_menu_edit"
+        />
+
+    <ImageView
+        android:id="@+id/delete_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="370dp"
+        android:src="@android:drawable/ic_menu_delete"
+        />
+
+</androidx.cardview.widget.CardView>

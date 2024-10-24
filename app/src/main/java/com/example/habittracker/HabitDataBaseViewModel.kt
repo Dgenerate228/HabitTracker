@@ -17,11 +17,11 @@ class HabitDataBaseViewModel(val dao: HabitDao) : ViewModel() {
             dao.insertCalendar(habit)
         }
     }
-    fun addType() {
-        viewModelScope.launch {
-            val type = HabitType()
-            val typeName = newName
-            dao.insertType(type)
-        }
-    }
+//    fun addType() {
+//        viewModelScope.launch {
+//            val type = HabitType()
+//            val typeName = newName
+//            dao.insertType(type)
+//        }
+//    }
 }

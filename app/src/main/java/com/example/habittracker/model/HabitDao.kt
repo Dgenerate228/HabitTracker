@@ -26,30 +26,30 @@ interface HabitDao {
     fun getAllCalendarList(): LiveData<List<HabitCalendarList>>
 
 
-    @Insert
-    suspend fun insertType(habit: HabitType)
-
-    @Update
-    suspend fun updateType(habit: HabitType)
-
-    @Delete
-    suspend fun deleteType(habit: HabitType)
-
-    @Query("SELECT * FROM HABIT_TYPE ORDER BY habitId DESC")
-    fun getAllType(): LiveData<List<HabitType>>
-
-
-    @Insert
-    suspend fun insertList(habit: HabitList)
-
-    @Update
-    suspend fun updateList(habit: HabitList)
-
-    @Delete
-    suspend fun deleteList(habit: HabitList)
-
-    @Query("SELECT * FROM HABIT_LIST ORDER BY habitId DESC")
-    fun getAllList(): LiveData<List<HabitList>>
+//    @Insert
+//    suspend fun insertType(habit: HabitType)
+//
+//    @Update
+//    suspend fun updateType(habit: HabitType)
+//
+//    @Delete
+//    suspend fun deleteType(habit: HabitType)
+//
+//    @Query("SELECT * FROM HABIT_TYPE ORDER BY habitId DESC")
+//    fun getAllType(): LiveData<List<HabitType>>
+//
+//
+//    @Insert
+//    suspend fun insertList(habit: HabitList)
+//
+//    @Update
+//    suspend fun updateList(habit: HabitList)
+//
+//    @Delete
+//    suspend fun deleteList(habit: HabitList)
+//
+//    @Query("SELECT * FROM HABIT_LIST ORDER BY habitId DESC")
+//    fun getAllList(): LiveData<List<HabitList>>
 
 
 

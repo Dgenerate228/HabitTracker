@@ -5,6 +5,7 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 
+//Создание и возвращение экземпляра базы данных
 @Database(entities = [HabitCalendarList::class], version = 1, exportSchema = false)
 abstract class HabitDataBase: RoomDatabase() {
     abstract val habitDao: HabitDao
